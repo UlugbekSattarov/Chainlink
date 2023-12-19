@@ -1,0 +1,21 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; 
+}
+
+.App {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  text-align: center;
+}
+
+/* Custom styles for the header to ensure central alignment */
+.App-header {
+  width: 100%; 
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem; 
+}

@@ -1,0 +1,56 @@
+
+.CurrencyBox {
+  background-color: #e0e4cc;
+  color: #556270;
+  padding-inline: 30px;
+  padding-block: 10px;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.CurrencyBox form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.CurrencyBox label {
+  display: block;
+  padding: 5px;
+  border: 1px solid #556270;
+}
+
+.CurrencyBox input[type="radio"] {
+  accent-color: #f99157;
+}
+
+.CurrencyBox button {
+  background-color: #86c5da;
+  color: #3b3a36;
+  border: 2px solid #f99157;
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.CurrencyBox button:hover {
+  transform: scale(1.1);
+  color: #86c5da;
+  background-color: #f99157;
+}
+
+.CurrencyBox p {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.CurrencyGroup {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}

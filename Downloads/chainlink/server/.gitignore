@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Environment variables
+.env
+
+# Hardhat build directory
+build/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Compiled output
+/dist
